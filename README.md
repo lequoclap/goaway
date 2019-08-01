@@ -1,11 +1,14 @@
 ## TODO
 
- - [ ] Run in product + SQL
+ - [x] Run in product + SQL
  - [ ] Conding conventions
- - [ ] Test: Asset & Fake
- - [ ] call function from other files
+ - [x] Test: Asset & Fake
+ - [x] call function from other files
  - [ ] goroutine
  - [ ] asynx, mutex
  - [ ] makefile
- - [ ] create an API
+ - [x] create an API
+
+## Documents
+1. [Dependency Injection](https://blog.drewolson.org/dependency-injection-in-go)
 
