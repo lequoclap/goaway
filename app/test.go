@@ -7,10 +7,12 @@ import (
 	"time"
 )
 
+type 
 type Welcome struct {
 	Name string
 	Time string
 }
+
 
 func main() {
 	welcome := Welcome{"Anonymous", time.Now().Format(time.Stamp)}

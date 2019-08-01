@@ -14,7 +14,15 @@ func split(sum int) (x, y int) {
 	y = sum - x
 	return
 }
+
+func Sum(x int, y int) int {
+	return x + y
+}
+
 func main() {
+
+	Sum(5, 5)
+
 	fmt.Println("Hello world")
 	fmt.Println("My favorite number is", rand.Intn(10))
 	fmt.Println("Pi is:", math.Pi)
